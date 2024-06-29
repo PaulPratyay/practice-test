@@ -5,8 +5,30 @@ public class ShopApp {
 
         Customer c1 = new Customer();
 
-        c1.setName("Pratyay Paul");
+        c1.setName("John");
 
-        System.out.println("Welcome to ShopApp" + " " +  c1.getName());
+        int measurement = 3;
+
+        System.out.println("Hello, " + c1.getName() + "!");
     }
+
+    public static void setSizeBasedOnMeasurement(Customer customer, int measurement) {
+        switch (measurement) {
+            case 1:
+                customer.setSize("S");
+                break;
+            case 2:
+                customer.setSize("M");
+                break;
+            case 3:
+                customer.setSize("L");
+                break;
+            default:
+                customer.setSize("X");
+                break;
+        }
+    }
+
+
 }
+
