@@ -7,9 +7,9 @@ public class ShopApp {
 
         c1.setName("John");
 
-        int measurement = 3;
+        int measurement = 3;        // Setting size of the customer based on the measurement value
 
-        System.out.println("Hello, " + c1.getName() + "!");
+        System.out.println("Hello, " + c1.getName() + "!");     // Greeting message
     }
 
     public static void setSizeBasedOnMeasurement(Customer customer, int measurement) {
