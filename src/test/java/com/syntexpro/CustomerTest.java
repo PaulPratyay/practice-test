@@ -38,7 +38,7 @@ public class CustomerTest {
         assertEquals("M", customer.getSize(), "Customer size should be M for measurement 2");
     }
 
-    @DisplayName("Testing size for measurement 1")
+    @DisplayName("Testing size for measurement 3")
     @Test
     void testSizeForMeasurement_L() {
         Customer.setSizeBasedOnMeasurement(customer, 3);
